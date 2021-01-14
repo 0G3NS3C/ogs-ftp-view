@@ -1,0 +1,29 @@
+{
+  "appName": "0G3NS3C FTP 0rg4n!s3r",
+  "appLogo": "logo.png",
+  "rules": {
+    "Documents": ["doc","docx","pdf","xls"],
+    "Musics": ["mp3","wav"],
+    "Videos": ["mp4","avi"],
+    "_ignore": [".","..",".htaccess", "index.php", "lib.js", "config.json", "style.css", "logo.png"]    
+  },
+  "actions": {
+    "documents": "onClickDownload",
+    "musics": "onClickAudio",
+    "videos": "onClickVideo"
+  },
+  "styles": {
+    "app": {
+      "backgroundColor": "#111"
+    },
+    "documents": {
+      "backgroundColor": "white"
+    },
+    "musics": {
+      "backgroundColor": "blue"
+    },
+    "videos": {
+      "videos": "red"
+    }
+  }
+}
